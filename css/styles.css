@@ -1,0 +1,237 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Open+Sans:ital,wght@1,400;1,500;1,700&family=Roboto+Slab:wght@400;500;700&family=Roboto:ital,wght@0,500;1,400;1,700&display=swap');
+ *{
+    font-family: 'Nunito';
+ }
+
+ header{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ header img{
+    margin-left: 7rem;
+    width: 170px;
+ }
+
+ header #demo{
+    background: #f34f36;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+    width: 160px;
+    margin-right: 8rem;
+ }
+
+ .login{
+    background: #2A4C62;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 48vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.login img{
+    height: 400px;
+}
+
+.login .info{
+    width: 490px;
+    margin-left: 7rem;
+}
+
+.login .tour-solicitud{
+    background: #fff;
+    color: black;
+    height: 40vh;
+    width: 39vh;
+    border-radius: 15px;
+    margin-right: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tour-solicitud input, select{
+   color: rgba(132, 132, 132);
+   margin: 5px 10px;
+   padding: 8px 12px;
+   width: 85%;
+   border-color: rgba(220, 216, 216, 0.706);
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   font-size: 18px;
+}
+
+.tour-solicitud select{
+   margin-left: -2px;
+   width: 90%;
+}
+
+.tour-solicitud #celular{
+   display: none;
+}
+
+.tour-solicitud button{
+   margin-top: 20px;
+   background: #f34f36;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   font-size: 15px;
+   height: 35px;
+   width: 120px;
+}
+
+.tour-solicitud h2{
+   text-align: center;
+   margin-left: 2.5rem;
+   margin-right: 2.5rem;
+}
+
+.info-fund{
+   display: flex;
+   flex-direction: column;
+}
+
+.info-landing{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+}
+
+.landingpage{
+   display: flex;
+   flex-direction: column;
+   margin-top: 9rem;
+}
+
+.info-land img{
+   height: 310px;
+   margin-left: 4rem;
+}
+
+.landingpage span{
+   color: rgba(72, 117, 136);
+}
+.landingpage p{
+   max-width: 400px;
+}
+
+.info-landing h2{
+   color: rgba(72, 117, 136);
+   font-size: 18px;
+}
+
+.info-land{
+   margin-top: 4rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.info-landing h3{
+   font-size: 15px;
+   color: rgb(135, 136, 136);
+}
+
+.in{
+   width: 400px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.otto{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.otto img{
+   height: 70px;
+}
+
+.otto a{
+   text-decoration: none;
+}
+.otto :hover{
+   color: #f34f36;
+}
+
+.info-landing{
+   margin-top: -20px;
+   margin-left: -10px;
+   margin-right: -10px;
+   background: rgba(244, 250, 253);
+}
+
+.landingpage{
+   margin-left: 7rem;
+}
+
+.info-landing h2{
+   color: rgba(72, 117, 136);
+}
+
+.container-pages{
+   margin-top: 3rem;
+   background: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 15px;
+}
+
+.container-pages .cont-allpage{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 15px;
+   margin: 3rem;
+}
+
+.container-pages .espectativas p{
+   font-size: 27px;
+}
+
+.espectativas span{
+   color: #396688;
+}
+
+.espectativas img{
+   width: 468px;
+   height: 475px;
+}
+
+.list .elements li{
+   list-style-type: none;
+   background-image: url(../img/Vector_check.png);
+   background-size: 25px 25ps;
+   background-repeat: no-repeat;
+   padding-left: 30px
+}
+
+.elements span{
+   font-size: 17px;
+   color: #396688;
+}
+
+.elements p{
+   font-size: 13px;
+   color: #2A4C62;
+}
+
+
+
+
+
